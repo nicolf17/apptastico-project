@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    background-color: #4c5a65;
+    justify-content: space-around;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+    border: none;
+}
+
+.navbar li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: lighter;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.navbar a.active{
+    border-radius: 17px;
+    border: none;
+    background-color: #38434a;
+    padding: 4px 17px;
+    box-shadow: 2px 0px 10px #38434a;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navbar img{
+    display: flex;
+}
+
+ /* seccion hero */
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #4c5a65;
+    width: 100%;
+    border: none;
+}
+
+.img-phone{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.img-phone img{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.hero-text h1{
+    color: #fff;
+    font-size: 55px;
+}
+
+.hero-text p{
+    display: flex;
+    color: #fff;
+    opacity: 0.7;
+    line-height: 23px;
+}
+
+.hero-text .gray-text{
+    color: #939ea4;
+    margin-bottom: 25px;
+}
+
+.buttons-hero{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.buttons-hero {
+    align-items: center;
+}
+
+.buttons-hero .blue-button{
+    color: #fff;
+    font-weight: bold;
+    background-color: #3e97d3;
+    border-radius: 20px;
+    border: none;
+    padding: 14px 40px;
+    box-shadow: 0px 4px 15px 0px #38434a;
+    cursor: pointer;
+}
+
+.buttons-hero button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+/* seccion barra */
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ececec;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 1px 10px #38434a;
+}
+
+.bar div {
+    cursor: pointer;
+}
+
+/* seccion final */
+
+.final-section {
+    background-color: #fff;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.card h2{
+    color: #4c5a65;
+    line-height: 50px;
+}
+
+.card p {
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 20px;
+    text-align: center;
+    color: #4c5a65;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.card button {
+    padding: 14px 25px;
+    background-color: #3e97d3;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 4px 5px 0px #38434a;
+    cursor: pointer;
+}
+
+.card img{
+    width: fit-content;
+    margin-bottom: 40px;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0px 150px 30px 160px;
+}
+
+.projects img{
+    width: 20px;
+    height: auto;
+}
+
+.projects h1{
+    font-weight: lighter;
+    opacity: 0.6;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.imagen {
+    background-color: #fff;
+    padding: 5px 103px 1px 4px;
+    box-shadow: 0px 0px 5px 0px #333;
+}
+
+.imagen img{
+    width: 170%;
+}
+
+.reseñas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.reseña1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.reseña1 p{
+    opacity: 0.6;
+}
+
+.h1-reseña1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 160px;
+    opacity: 0.6;
+}
+
+.h1-reseña1 img{
+    width: 20px;
+    height: auto;
+}
+
+.part {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    gap: 30px;
+    background-color: #fff;
+}
+
+.part img{
+    padding: 2px;
+    box-shadow: 0px 0px 5px 0px #333;
+    width: 25%;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 28px;
+}
+
+.part2 h2{
+    opacity: 0.6;
+}
+
+.link {
+    color: #3e97d3;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link2 {
+    color: #3e97d3;
+    cursor: pointer;
+    margin-left: 150px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.reseña2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.h1-reseña2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 120px;
+    opacity: 0.6;
+}
+
+.reseña2 p{
+    opacity: 0.6;
+    margin-left: 120px;
+    line-height: 28px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    margin: 0px 150px 0px 150px;
+    opacity: 0.6;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 1279px) { /* en el inspeccionar se pone el valor minimo */
+    
+    .img-phone img{
+        margin: 0;
+    }
+
+    .img-phone{
+        margin-top: 10px;
+        width: 49%;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+    }
+
+    .hero-text{
+        width: 49%;
+    }
+
+    .projects{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .cards{
+        margin: 120px 0px;
+    }
+
+    .imagenes{
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        margin-bottom: 120px;
+    }
+
+    .imagen{    
+        padding: 3px;
+        margin: 0px 20px;
+    }
+
+    .imagen img{
+        width: 270px;
+    }
+
+    .h1-reseña1, .part{
+        margin: 0;
+    }
+
+    .h1-reseña2, .reseña2 p{
+        margin: 0;
+    }
+
+    .h1-reseña1, .h1-reseña2{
+        justify-content: center;
+    }
+
+    .reseñas{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 920px){
+
+    .hero{
+        gap: 40px;
+    }
+
+    .img-phone{
+        width: 45%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .hero-text{
+        width: 45%;
+        gap: 10px;
+    }
+
+    .hero-text h1{
+        font-size: 35px;
+    }
+
+    .hero-text p{
+        font-size: 14px;
+    }
+
+    .buttons-hero .buttton{
+        padding: 10px 25px;
+    }
+
+    .buttons-hero .blue-button{
+        padding: 10px 25px;
+    }
+
+    .card{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .card h2{
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .part img{
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .buttons-hero{
+        margin-bottom: 20px;
+    }
+
+    .projects h1 {
+        font-size: 30px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .card{
+        width: 70%;
+    }
+
+    .card h2, .card p, .card img{
+        margin-bottom: 10px;
+    }
+
+    .h1-reseña1 img, .h1-reseña2 img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .h1-reseña1, .h1-reseña2{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .h1-reseña1 h1, .h1-reseña2 h1 {
+        font-size: 30px;
+        font-weight: lighter;
+    }
+
+    .part{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .part img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .part2 h2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 480px){
+
+}
+
