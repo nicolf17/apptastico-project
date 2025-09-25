@@ -304,7 +304,6 @@
 .link2 {
     color: #3e97d3;
     cursor: pointer;
-    margin-left: 150px;
     font-weight: bold;
     opacity: 0.6;
 }
@@ -312,6 +311,7 @@
 .reseña2{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 50%;
     gap: 40px;
     padding-top: 40px;
@@ -336,7 +336,6 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid #ccc;
     margin: 0px 150px 0px 150px;
     opacity: 0.6;
 }
@@ -396,19 +395,23 @@ footer {
     }
 
     .h1-reseña1, .part{
+        justify-content: center;
         margin: 0;
     }
 
     .h1-reseña2, .reseña2 p{
+        justify-content: center;
         margin: 0;
     }
 
-    .h1-reseña1, .h1-reseña2{
+    .h1-reseña1 h1, .h1-reseña2 h1{
         justify-content: center;
+        font-weight: lighter;
     }
 
     .reseñas{
         flex-direction: column;
+        justify-content: center;
         gap: 20px;
         width: 100%;
     }
@@ -504,12 +507,6 @@ footer {
         height: 35px;
     }
 
-    .h1-reseña1, .h1-reseña2{
-        justify-content: center;
-        align-items: center;
-        width: auto;
-    }
-
     .h1-reseña1 h1, .h1-reseña2 h1 {
         font-size: 30px;
         font-weight: lighter;
@@ -533,15 +530,113 @@ footer {
         margin-bottom: 10px;
     }
 
-    .link{
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        font-weight: bold;
+    .reseña2 p{
+        margin: 0;
     }
 }
 
 @media (max-width: 480px){
 
+    .img-phone{
+        width: 70%;
+        padding: 0;
+    }
+
+    .hero-text{
+        width: 70%;
+        gap: 10px;
+    }
+
+    .hero-text h1{
+        font-size: 30px;
+    }
+
+    .projects h1 {
+        font-size: 20px;
+    }
+
+    .buttons-hero .blue-button{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    .buttons-hero button{
+        font-size: 12px;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .card h2{
+        font-size: 20px;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+
+    .part2 h2{
+        font-size: 18px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        margin-top: 20px;
+    }
+
+    footer p{
+        text-align: center;
+    }
 }
 
+@media (max-width: 351px){
+
+    .img-phone img{
+        width: 80%;
+    }
+
+    .hero-text{
+        width: 80%;
+    }
+
+    .hero-text h1{
+        font-size: 25px;
+    }
+
+    .bar{
+        padding: 0px 10px 0px 20px;
+        gap: 10px;
+    }
+
+    .bar img{
+        width: 70%;
+    }
+
+    .projects h1 {
+        font-size: 18px;
+    }
+
+    .buttons-hero .blue-button{
+        padding: 6px 15px;
+        font-size: 10px;
+    }
+
+    .buttons-hero button{
+        font-size: 10px;
+    }
+
+    .card h2{
+        font-size: 18px;
+    }
+
+    .card p{
+        font-size: 12px;
+    }
+
+    .part2 h2{
+        font-size: 16px;
+    }
+}
